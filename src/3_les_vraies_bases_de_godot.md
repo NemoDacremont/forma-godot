@@ -23,6 +23,21 @@ Le but des actions et d'abstraire les interactions du joueur afin de pouvoir map
 On va maintenant utiliser ces actions pour contrôler le joueur, on va reprendre le script associé à notre joueur
 
 1. Attacher un script à l'image qui a été importée.
+1. Dans la fonction `_process`, ajouter :
+
+```gdscript
+if Input.is_action_pressed("up"):
+    position.y += 1
+```
+
+1. Faire de même pour les actions `down`, `left` et `right`
+1. Sauvegarder, et tester le résultat
+
+## Coordonnées dans le canevas
+
+On po
+
+![Schéma coordonnées dans un canevas](src/img/3-canvas.pdf)
 
 
 
