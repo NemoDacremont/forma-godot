@@ -1,7 +1,7 @@
 
 SRC_DIR=src
 BUILD_DIR=build
-PANDOC_FLAGS=--template eisvogel --toc -N
+PANDOC_FLAGS=--template ./src/eisvogel --toc -N
 
 SRCS=$(wildcard ${SRC_DIR}/*.md)
 BUILD_TARGETS=$(SRCS:${SRC_DIR}/%.md=${BUILD_DIR}/%.pdf)
