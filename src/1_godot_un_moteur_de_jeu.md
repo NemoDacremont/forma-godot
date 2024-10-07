@@ -23,7 +23,7 @@ Un moteur de jeu est un outil permettant de faciliter, mais surtout d'accélére
 
 ## Pourquoi Godot ?
 
-Vous n'avez peut-être jamais entendu parler de Godot, mais il s'agit tout de même d'un moteur assez populaire, notamment apprécié en gamejam.
+Vous n'avez peut-être jamais entendu parler de Godot, mais il s'agit tout de même d'un moteur assez populaire, notamment apprécié en *gamejam*.
 
 Nous allons ici discuter des avantages et des inconvénients de Godot.
 
@@ -37,7 +37,17 @@ Nous allons ici discuter des avantages et des inconvénients de Godot.
 
 ### Les désavantages
 
-1. Distribution sur la plupart des consoles impossible
+1. Distribution sur la plupart des consoles impossibles
 1. La gestion de la 3D ne vaut pas ses compétiteurs
+
+## Références Godot / Jeux vidéos
+
+1. Documentation Godot [https://docs.godotengine.org](https://docs.godotengine.org)
+1. Conférences de jeux vidéos : [https://www.youtube.com/@Gdconf](https://www.youtube.com/@Gdconf)
+
+### Pourquoi la doc Godot est importante ?
+
+Godot est un moteur qui évolue rapidement, et parfois peut introduire des changements drastiques, ce qui fait que les tutoriels sur youtube ou sur des blogs deviennent obsolètes. Aucune source n'est aussi fiable que la doc Godot.
+
 
 

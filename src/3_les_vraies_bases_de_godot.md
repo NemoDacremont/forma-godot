@@ -1,5 +1,5 @@
 
-# Les vraies bases de godot
+# Les vraies bases de Godot
 
 ## Créer un personnage qui bouge
 
@@ -14,7 +14,7 @@ Reprendre le projet `Hello\_world`
 
 Le but des actions et d'abstraire les interactions du joueur afin de pouvoir mapper différentes interactions à une même action. 
 
-1. Aller Dans Project > Project Settings > Input Map
+1. Aller Dans `Project > Project Settings > Input Map`
 1. Ajouter les actions `up`, `right`, `left` et `down`
 1. Mapper `z` et flèche du haut pour `up`, et faire de même pour les autres actions
 
@@ -35,9 +35,13 @@ if Input.is_action_pressed("up"):
 
 ## Coordonnées dans le canevas
 
-On po
+Alors qu'on pensait aller en haut ou en bas, on va dans la direction opposée.
+
+En informatique, et dans un canevas, l'origine des coordonnées est généralement en haut à gauche du repère, comme suivant :
 
 ![Schéma coordonnées dans un canevas](src/img/3-canvas.pdf)
+
+Il faut donc échanger les codes associés aux actions `down` et `up`.
 
 
 
