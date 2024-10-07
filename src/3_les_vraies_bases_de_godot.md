@@ -35,13 +35,19 @@ if Input.is_action_pressed("up"):
 
 ## Coordonnées dans le canevas
 
-Alors qu'on pensait aller en haut ou en bas, on va dans la direction opposée.
-
-En informatique, et dans un canevas, l'origine des coordonnées est généralement en haut à gauche du repère, comme suivant :
+Même si cela ne parrait pas naturel quand on sort de cours de math, l'origine d'un canevas en informatique se trouve généralement en haut à gauche comme suivant :
 
 ![Schéma coordonnées dans un canevas](src/img/3-canvas.pdf)
 
-Il faut donc échanger les codes associés aux actions `down` et `up`.
+C'est assez rapide à prendre en main, il faut donc échanger le code pour les deux actions `up` et `down` :
 
+
+```gdscript
+if Input.is_action_pressed("up"):
+    position.y -= 1
+
+elif Input.is_action_pressed("down"):
+    position.y += 1
+```
 
 
