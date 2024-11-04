@@ -16,3 +16,21 @@ Dans l'état actuel des choses, on a tout dans une scène `Main`, on va d'abord 
 
 
 ## Créer une scène `Bullet`
+
+### Créer la scène et tt
+
+### Tuer un Enemy au touché
+
+## Faire tirer le joueur
+
+## On a envie de faire apparaître des ennemies en boucle :
+
+1. ajouter un path2D
+1. Créer une node Enemies
+1. preload enemy
+
+## Quelques améliorations
+
+
+
+

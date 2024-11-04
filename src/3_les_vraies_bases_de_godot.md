@@ -37,7 +37,7 @@ if Input.is_action_pressed("up"):
 
 Même si cela ne parrait pas naturel quand on sort de cours de math, l'origine d'un canevas en informatique se trouve généralement en haut à gauche comme suivant :
 
-![Schéma coordonnées dans un canevas](src/img/3-canvas.pdf)
+![Schéma coordonnées dans un canevas](src/img/3-canvas.pdf){ width=50% }
 
 C'est assez rapide à prendre en main, il faut donc échanger le code pour les deux actions `up` et `down` :
 
